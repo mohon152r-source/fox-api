@@ -1,0 +1,18 @@
+{
+  "name": "fox-api",
+  "main": "src/index.js",
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "hyperdrive": [
+    {
+      "binding": "HYPERDRIVE",
+      "id": "c9b536bbd320400cb84ba8812c0f3410"
+    }
+  ],
+  "vars": {
+    "NEON_DB_URL": "postgresql://neondb_owner:npg_fK4A7EpXdb ez@ep-winter-recipe-azh6nxw9.c-3.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
